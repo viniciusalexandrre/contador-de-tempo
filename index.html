@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Desafio Natal</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Faltam</h1>
+      </div>
+    </header>
+    <section>
+      <div class="tempo">
+        <ul>
+          <div>
+            <div class="contagem blocoNatal">
+              <div>
+                <li id="dia">26</li>
+              </div>
+            </div>
+            <div>
+              <p>Dias</p>
+            </div>
+          </div>
+          <div>
+            <div class="contagem blocoNatal">
+              <div>
+                <li id="hora">26</li>
+              </div>
+            </div>
+            <div>
+              <p>Horas</p>
+            </div>
+          </div>
+          <div>
+            <div class="contagem blocoNatal">
+              <div>
+                <li id="minuto">26</li>
+              </div>
+            </div>
+            <div>
+              <p>Minutos</p>
+            </div>
+          </div>
+          <div>
+            <div class="contagem blocoNatal">
+              <div>
+                <li id="segundo">26</li>
+              </div>
+            </div>
+            <div>
+              <p>Segundos</p>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div>
+        <h3>Para o</h3>
+      </div>
+      <div class="feriado">
+        <div class="">
+          <span>🎄</span>
+          <h2 class="titulo tituloNatal">Natal</h2>
+          <span>🎅🏻</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="botao" class="contagem blocoNatal">
+        <button>
+          <div class="container">
+            <select id="mudarData">
+              <option value="natal" id="natal">Natal</option>
+              <option value="halloween" id="halloween">Halloween</option>
+              <option value="anoNovo" id="anoNovo">Ano novo</option>
+            </select>
+            <div class="controleSvg">
+              <svg
+                width="14"
+                height="8"
+                viewBox="0 0 14 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 1L7 7L13 1"
+                  stroke="#E0E0E0"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+        </button>
+      </div>
+    </footer>
+    <script src="JavaScript/modules/tempo.js"></script>
+    <script src="JavaScript/modules/feriado.js"></script>
+    <script src="JavaScript/modules/emoji.js"></script>
+  </body>
+</html>

@@ -1,0 +1,211 @@
+@media (max-width: 980px) {
+  ul li {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 680px) {
+  ul li {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 680px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 680px) {
+  .tituloHalloween h2 {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 680px) {
+  .emojiHalloween {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 600px) {
+  div h2 {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  section > div ul {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tituloHalloween h2 {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 480px) {
+  .emojiHalloween {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  ul li {
+    font-size: 20px;
+    max-width: 70px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 580px) {
+  .tituloAnoNovo h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 580px) {
+  .emojiNatal {
+    font-size: 66px;
+  }
+}
+
+@media (max-width: 580px) {
+  .emojiAnoNovo {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .emojiNatal {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 480px) {
+  div h2 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  button {
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 380px) {
+  ul li {
+    padding: 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 380px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  div h2 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 380px) {
+  .emojiNatal {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 380px) {
+  .tituloAnoNovo h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 380px) {
+  .emojiAnoNovo {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tituloHalloween h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .emojiHalloween {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 330px) {
+  div h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 330px) {
+  .tituloAnoNovo h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-with: 330px) {
+  .emojiAnoNovo {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 330px) {
+  .emojiNatal {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tituloHalloween h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .emojiHalloween {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 330px) {
+  header div h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 300px) {
+  p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 300px) {
+  ul li {
+    padding: 14px;
+  }
+}
+
+@media (max-width: 280px) {
+  a {
+    font-size: 14px;
+  }
+}

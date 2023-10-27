@@ -1,0 +1,339 @@
+/* line 9, ../../../../../desafio-natal/scss/style.scss */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* line 16, ../../../../../desafio-natal/scss/style.scss */
+header div h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 58px;
+  color: #c8c8c8;
+  text-transform: uppercase;
+}
+
+@media (max-width: 380px) {
+  /* line 16, ../../../../../desafio-natal/scss/style.scss */
+  header div h1 {
+    font-size: 50px;
+  }
+}
+
+/* line 27, ../../../../../desafio-natal/scss/style.scss */
+section > div ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 32px;
+  width: 100%;
+}
+
+@media (max-width: 580px) {
+  /* line 27, ../../../../../desafio-natal/scss/style.scss */
+  section > div ul {
+    gap: 20px;
+  }
+}
+
+/* line 39, ../../../../../desafio-natal/scss/style.scss */
+li {
+  background: #000000;
+}
+
+/* line 43, ../../../../../desafio-natal/scss/style.scss */
+div > h3 {
+  justify-content: center;
+  color: #c8c8c8;
+  display: flex;
+  padding-top: 78px;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (max-width: 380px) {
+  /* line 43, ../../../../../desafio-natal/scss/style.scss */
+  div > h3 {
+    font-size: 22px;
+  }
+}
+
+/* line 58, ../../../../../desafio-natal/scss/style.scss */
+.feriado > div {
+  display: flex;
+  padding-bottom: 68px;
+  font-size: 78px;
+}
+
+@media (max-width: 880px) {
+  /* line 58, ../../../../../desafio-natal/scss/style.scss */
+  .feriado > div {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* line 58, ../../../../../desafio-natal/scss/style.scss */
+  .feriado > div {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 58, ../../../../../desafio-natal/scss/style.scss */
+  .feriado > div {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 380px) {
+  /* line 58, ../../../../../desafio-natal/scss/style.scss */
+  .feriado > div {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 330px) {
+  /* line 58, ../../../../../desafio-natal/scss/style.scss */
+  .feriado > div {
+    font-size: 22px;
+  }
+}
+
+/* line 80, ../../../../../desafio-natal/scss/style.scss */
+.feriado > div h2 {
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* line 89, ../../../../../desafio-natal/scss/style.scss */
+.feriado > div h2.tituloNatal {
+  background-image: linear-gradient(135deg, #d74c7e, #ee4758);
+}
+
+/* line 92, ../../../../../desafio-natal/scss/style.scss */
+.feriado > div h2.tituloHalloween {
+  background-image: linear-gradient(135deg, #ffc230, #ee4758);
+}
+
+/* line 95, ../../../../../desafio-natal/scss/style.scss */
+.feriado > div h2.tituloAnoNovo {
+  background-image: linear-gradient(135deg, #f8b6cc, #c0c6e6, #fff6f0);
+}
+
+/* line 101, ../../../../../desafio-natal/scss/style.scss */
+p {
+  justify-content: center;
+  display: flex;
+  padding-top: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #d5d5d5;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (max-width: 680px) {
+  /* line 101, ../../../../../desafio-natal/scss/style.scss */
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 101, ../../../../../desafio-natal/scss/style.scss */
+  p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  /* line 101, ../../../../../desafio-natal/scss/style.scss */
+  p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  /* line 101, ../../../../../desafio-natal/scss/style.scss */
+  p {
+    font-size: 8px;
+  }
+}
+
+/* line 125, ../../../../../desafio-natal/scss/style.scss */
+.blocoNatal {
+  background: linear-gradient(0.25turn, #d64c7f, #ee4758);
+  border-radius: 14px;
+  padding: 4px;
+}
+
+/* line 131, ../../../../../desafio-natal/scss/style.scss */
+.blocoHalloween {
+  background: linear-gradient(135deg, #ffc230, #ee4758);
+  border-radius: 14px;
+  padding: 4px;
+}
+
+/* line 137, ../../../../../desafio-natal/scss/style.scss */
+.blocoAnoNovo {
+  background: linear-gradient(135deg, #f8b6cc, #c0c6e6, #fff6f0);
+  border-radius: 14px;
+  padding: 4px;
+}
+
+/* line 143, ../../../../../desafio-natal/scss/style.scss */
+body {
+  background: #1f1f1f;
+}
+
+/* line 147, ../../../../../desafio-natal/scss/style.scss */
+h1 p h2 a h3 {
+  text-transform: uppercase;
+}
+
+/* line 151, ../../../../../desafio-natal/scss/style.scss */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 156, ../../../../../desafio-natal/scss/style.scss */
+select {
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+  background: #000000;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #c8c8c8;
+  outline: 0;
+  appearance: none;
+  width: 100%;
+}
+
+/* line 172, ../../../../../desafio-natal/scss/style.scss */
+button {
+  border-radius: 10px;
+  border: none;
+  background: #000000;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #c8c8c8;
+  min-width: 250px;
+  width: 100%;
+  outline: 0;
+  appearance: none;
+}
+
+@media (max-width: 380px) {
+  /* line 172, ../../../../../desafio-natal/scss/style.scss */
+  button {
+    min-width: 180px;
+  }
+}
+
+/* line 191, ../../../../../desafio-natal/scss/style.scss */
+.controleSvg {
+  padding-right: 12px;
+}
+
+/* line 195, ../../../../../desafio-natal/scss/style.scss */
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/* line 200, ../../../../../desafio-natal/scss/style.scss */
+.feriado {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 205, ../../../../../desafio-natal/scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 210, ../../../../../desafio-natal/scss/style.scss */
+* *,
+* *::before,
+* *::after {
+  box-sizing: inherit;
+}
+
+/* line 217, ../../../../../desafio-natal/scss/style.scss */
+ul li {
+  list-style: none;
+  padding-bottom: 36px;
+  padding-top: 36px;
+  padding: 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 110px;
+  font-weight: bold;
+  color: #e0e0e0;
+  border-radius: 10px;
+  width: 100%;
+}
+
+@media (max-width: 980px) {
+  /* line 217, ../../../../../desafio-natal/scss/style.scss */
+  ul li {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 680px) {
+  /* line 217, ../../../../../desafio-natal/scss/style.scss */
+  ul li {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 217, ../../../../../desafio-natal/scss/style.scss */
+  ul li {
+    font-size: 20px;
+    max-width: 70px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 380px) {
+  /* line 217, ../../../../../desafio-natal/scss/style.scss */
+  ul li {
+    padding: 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  /* line 217, ../../../../../desafio-natal/scss/style.scss */
+  ul li {
+    padding: 14px;
+  }
+}
+
+/* line 249, ../../../../../desafio-natal/scss/style.scss */
+.estiloTitulo {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
